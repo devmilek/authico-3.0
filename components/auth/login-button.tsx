@@ -17,7 +17,7 @@ const LoginButton = ({
   const router = useRouter();
   const onClick = () => {
     if (mode === "redirect") {
-      router.push("/login");
+      router.push("/auth/login");
     }
   };
 
